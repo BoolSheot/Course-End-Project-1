@@ -2,7 +2,7 @@
   hosts: all
   become: true
   tasks:
-          - name: "ensure user person2 exists"
+          - name: "ensure user person99 exists"
             user:
-                    name: person2
+                    name: person99
                     state: present
